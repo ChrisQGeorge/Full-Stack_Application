@@ -1,15 +1,15 @@
 const mongoose = require('mongoose');
-const Model = mongoose.model('trips');
+const Model = mongoose.model('blog');
 
 
-const tripsList = async (req,res) =>{
+const blogList = async (req,res) =>{
     Model
         .find({})
-        .exec((err,trips) => {
+        .exec((err,blog) => {
             if(!trips){
                 return res
                     .status(404)
-                    .json({"message":"error, trips not found"})
+                    .json({"message":"error, blog not found"})
             }else if(err){
                 return res
                     .status(404)
@@ -17,7 +17,7 @@ const tripsList = async (req,res) =>{
             } else{
                 return res
                     .status(200)
-                    .json(trips)
+                    .json(blog)
             }
 
 
@@ -26,14 +26,14 @@ const tripsList = async (req,res) =>{
 };
 
 
-const tripsFindByCode = async (req,res) =>{
+const blogFindByCode = async (req,res) =>{
     Model
-        .find({"code": req.params.tripCode})
-        .exec((err,trips) => {
+        .find({"code": req.params.blogCode})
+        .exec((err,blog) => {
             if(!trips){
                 return res
                     .status(404)
-                    .json({"message":"error, trips not found"})
+                    .json({"message":"error, blog not found"})
             }else if(err){
                 return res
                     .status(404)
@@ -50,6 +50,6 @@ const tripsFindByCode = async (req,res) =>{
 };
 
 module.exports = {
-    tripsList,
-    tripsFindByCode
+    blogList,
+    blogFindByCode
 }
