@@ -3,11 +3,6 @@ const apiOptions = {
  server: 'http://localhost:3000'
 }
 
-request('http://www.google.com', function (error, response, body) {
-  console.log('error:', error); // Print the error if one occurred
-  //console.log('statusCode:', response && response.statusCode);  
-  //console.log('body:', body); 
-});
 
 
 
