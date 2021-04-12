@@ -49,7 +49,33 @@ const tripsFindByCode = async (req,res) =>{
         });
 };
 
+const tripsAddTrip = async (req, res) => {
+    Model
+    .create({
+        code: req.body.code,
+        name: req.body.name,
+        length: req.body.length,
+        start: req.body.start,
+        resort: req.body.resort,
+        perPerson: req.body.perPerson,
+        image: req.body.image,
+        description: req.body.description
+    },
+    (err, trip) => {
+        if (err) {
+            return res
+                .status(400)
+                .json(trip)
+        } else {
+            return res
+             .status(201)
+             .json(trip)
+        }
+    })
+}
+
 module.exports = {
     tripsList,
-    tripsFindByCode
+    tripsFindByCode,
+    tripsAddTrip
 }

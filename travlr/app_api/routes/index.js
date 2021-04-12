@@ -11,4 +11,7 @@ router.get('/blog', ctrlBlog.blogList);
 router.get('/trips/:tripCode', ctrlTrips.tripsFindByCode);
 router.get('/blog/:blogCode', ctrlBlog.blogFindByCode);
 
+//post routers
+router.post('/trips', ctrlTrips.tripsAddTrip)
+
 module.exports = router;

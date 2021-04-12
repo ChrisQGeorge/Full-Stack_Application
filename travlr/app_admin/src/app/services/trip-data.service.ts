@@ -18,6 +18,15 @@ export class TripDataService {
     .catch(this.handleError);
   }
 
+  public addTrip(formData: Trip): Promise<Trip> {
+    console.log('inside TripDataService#addTrip');
+    return this.http
+      .post(`${this.apiBasedUrl}trips`, formData)
+      .toPromise()
+      .then(response => response.json() as Trip[])
+      .catch(this.handleError)
+  }
+
   private handleError(error: any): Promise<any> {
     console.log('This is an error', error);
     return Promise.reject(error.message || error);
