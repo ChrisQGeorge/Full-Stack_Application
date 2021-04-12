@@ -14,4 +14,7 @@ router.get('/blog/:blogCode', ctrlBlog.blogFindByCode);
 //post routers
 router.post('/trips', ctrlTrips.tripsAddTrip)
 
+//put routers
+router.put('/trips', ctrlTrips.tripsUpdateTrip);
+
 module.exports = router;
