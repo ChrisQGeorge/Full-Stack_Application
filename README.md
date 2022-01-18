@@ -6,6 +6,7 @@ This is a full-stack application for a website called travlr. This project consi
 Software Design Document: 
 
 ### Pictures
+<p>
 Angular front-end
 <image src = "Pics/Main Page.png" ></image>
 <br>
@@ -17,7 +18,7 @@ Reading of a new trip added to the database
 <br>
 Edit trip UI
 <image src = "Pics/Edit Trip.png" ></image>
-
+</p>
 ## Architecture
 •	Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
 The front end used a page-based system of HBS files as the html sources for the pages. Express was used to run the front end and page content was router through to the pages from MongoDB using routers and controllers.
