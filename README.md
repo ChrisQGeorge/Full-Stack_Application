@@ -10,13 +10,13 @@ Angular front-end
 <image src = "Pics/Main Page.png" ></image>
 
 Add new trip UI
-<image src = "Add Trip.png" ></image>
+<image src = "Pics/Add Trip.png" ></image>
 
 Reading of a new trip added to the database
-<image src = "New Added Trip.png" ></image>
+<image src = "Pics/New Added Trip.png" ></image>
 
 Edit trip UI
-<image src = "Edit Trip.png" ></image>
+<image src = "Pics/Edit Trip.png" ></image>
 
 ## Architecture
 •	Compare and contrast the types of frontend development you used in your full stack project, including Express HTML, JavaScript, and the single-page application (SPA).
