@@ -8,13 +8,13 @@ Software Design Document:
 ### Pictures
 Angular front-end
 <image src = "Pics/Main Page.png" ></image>
-
+\n
 Add new trip UI
 <image src = "Pics/Add Trip.png" ></image>
-
+\n
 Reading of a new trip added to the database
 <image src = "Pics/New Added Trip.png" ></image>
-
+\n
 Edit trip UI
 <image src = "Pics/Edit Trip.png" ></image>
 
