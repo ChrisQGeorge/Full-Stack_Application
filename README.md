@@ -13,9 +13,6 @@ Angular front-end
 Add new trip UI
 <image src = "Pics/Add Trip.png" ></image>
 <br>
-Reading of a new trip added to the database
-<image src = "Pics/New Added Trip.png" ></image>
-<br>
 Edit trip UI
 <image src = "Pics/Edit Trip.png" ></image>
 </p>
