@@ -2,7 +2,7 @@ Link to e-portfolio: <a id="raw-url" href="https://flywheel11.github.io/">Link</
 # Full-Stack Application
 
 ## Intro
-This is a full-stack application for a website called travlr. This project consists of a database, API, a public front end, and a Single Page Application admin dashboard. The database was created using MongoDB with a Mongoose go between that would interact with the database and the API. The public facing site and the API were created using Angular using an MVC architecture. The admin dashboard was created using Express and has all CRUD interactions with the database. Admins are able to create, read, update, and delete trip entries into the database. More in depth information can be found in the Software Design Document linked below.
+This is a full-stack application for a website called travlr. This project consists of a database, API, a public front end, and a Single Page Application admin dashboard. The database was created using MongoDB with a Mongoose go-between to interact with the database and the API. The public-facing site and the API were created using Angular using an MVC architecture. The admin dashboard was created using Express and has all CRUD interactions with the database. Admins can create, read, update, and delete trip entries into the database. More in-depth information can be found in the Software Design Document linked below.
 
 Software Design Document: <a href="https://github.com/flywheel11/Full-Stack_Application/raw/main/CS%20465%20Software%20Design%20Document.docx">Link</a>
 
