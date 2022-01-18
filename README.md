@@ -7,13 +7,13 @@ Software Design Document:
 
 ### Pictures
 
-Angular front-end
+#### Angular front-end
 <image src = "Pics/Main Page.png" ></image>
 <br>
-Add new trip UI
+#### Add new trip UI
 <image src = "Pics/Add Trip.png" ></image>
 <br>
-Edit trip UI
+#### Edit trip UI
 <image src = "Pics/Edit Trip.png" ></image>
 
 ## Architecture
